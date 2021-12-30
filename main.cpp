@@ -842,7 +842,7 @@ int main(int argc, const char* argv[]){
 
     time /= list_KNN.size();
     page /= list_KNN.size();
-    cout << " KNN LISHD index time is : " << time << " [µs]" <<  endl;
+    cout << " KNN LIMS index time is : " << time << " [µs]" <<  endl;
     cout << "avg page : " << page << endl;
 
 
@@ -927,7 +927,7 @@ int main(int argc, const char* argv[]){
     io_time /= list_rangeQry.size();
     queryPt_num /= list_rangeQry.size();
     page /= list_rangeQry.size();
-    cout << "range query LISHD index time is : " << time << " [µs]" <<  endl;
+    cout << "range query LIMS index time is : " << time << " [µs]" <<  endl;
     cout << "io time : " << io_time << " [µs]" << endl;
     cout << "query point number avg is : " << queryPt_num << endl;
     cout << "avg page : " << page << endl;
@@ -973,7 +973,7 @@ int main(int argc, const char* argv[]){
     //         acc++;
     // }
     // time /= 200;
-    // cout << "point query LISHD index avg time : " << time << "[ns]" << endl;
+    // cout << "point query LIMS index avg time : " << time << "[ns]" << endl;
     // cout << "page avg : " << page<< endl;
     // cout << "acc " <<  acc << endl;
 
@@ -1138,7 +1138,7 @@ int main(int argc, const char* argv[]){
     // io_time /= list_rangeQry.size();
     // queryPt_num /= list_rangeQry.size();
     // page /= list_rangeQry.size();
-    // cout << "range query LISHD index time is : " << time << " [µs]" <<  endl;
+    // cout << "range query LIMS index time is : " << time << " [µs]" <<  endl;
     // cout << "io time : " << io_time << " [µs]" << endl;
     // cout << "query point number avg is : " << queryPt_num << endl;
     // cout << "avg page : " << page << endl;
